@@ -1,0 +1,466 @@
+===== RedshiftGuardian Log Started: 2026-02-18 17:50:43 =====
+Log file: C:\app\RedshiftGuardian_v6\publish\Logs\RedshiftGuardian_20260218_175043.log
+Application directory: C:\app\RedshiftGuardian_v6\publish\
+OS: Microsoft Windows NT 10.0.19044.0
+.NET: 8.0.24
+
+[2026-02-18 17:50:43.095] [INFO] [Program.Main] === Application Starting ===
+[2026-02-18 17:50:43.101] [INFO] [Program.Main] Arguments: None
+[2026-02-18 17:50:43.106] [INFO] [Program.Main] Initializing database...
+[2026-02-18 17:50:43.134] [INFO] [DatabaseContext.InitializeDatabase] InitializeDatabase called
+[2026-02-18 17:50:43.152] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:50:43.304] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:50:43.308] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:50:43.311] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:50:43.314] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory not set in AppDomain, creating default
+[2026-02-18 17:50:43.343] [DEBUG] [DatabaseContext.GetDataDirectory] ApplicationData folder: C:\Users\utsdm77\AppData\Roaming
+[2026-02-18 17:50:43.345] [DEBUG] [DatabaseContext.GetDataDirectory] Data directory will be: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:43.349] [DEBUG] [DatabaseContext.GetDataDirectory] Data directory already exists
+[2026-02-18 17:50:43.352] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory set in AppDomain
+[2026-02-18 17:50:43.354] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:43.356] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:43.358] [DEBUG] [DatabaseContext.InitializeDatabase] Connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:43.362] [DEBUG] [DatabaseContext.InitializeDatabase] Database file path: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:43.365] [INFO] [DatabaseContext.InitializeDatabase] Database exists: True, Needs schema: False
+[2026-02-18 17:50:43.370] [INFO] [DatabaseContext.InitializeDatabase] Database already exists, skipping initialization
+[2026-02-18 17:50:43.372] [INFO] [DatabaseContext.InitializeDatabase] InitializeDatabase completed successfully
+[2026-02-18 17:50:43.374] [INFO] [Program.Main] Database initialized successfully
+[2026-02-18 17:50:43.377] [INFO] [Program.Main] Running in GUI mode
+[2026-02-18 17:50:43.385] [INFO] [Program.Main] Creating DashboardForm...
+[2026-02-18 17:50:43.461] [INFO] [DashboardForm] DashboardForm constructor called
+[2026-02-18 17:50:43.464] [DEBUG] [DashboardForm] Calling InitializeComponent...
+[2026-02-18 17:50:43.731] [DEBUG] [DashboardForm] InitializeComponent completed
+[2026-02-18 17:50:43.734] [DEBUG] [DashboardForm] Calling InitializeServices...
+[2026-02-18 17:50:43.738] [DEBUG] [DashboardForm.InitializeServices] Creating ClusterServiceAdapter...
+[2026-02-18 17:50:43.742] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 17:50:43.745] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 17:50:43.748] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:50:43.751] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:50:43.756] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:50:43.758] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:50:43.761] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:43.763] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:43.766] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:43.768] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:43.847] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 17:50:43.851] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 17:50:43.853] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 17:50:43.856] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 17:50:43.860] [DEBUG] [DashboardForm.InitializeServices] Creating ScannerService...
+[2026-02-18 17:50:43.863] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 17:50:43.866] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:50:43.868] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:50:43.871] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:50:43.874] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:50:43.877] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:43.880] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:43.883] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:43.888] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:43.892] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 17:50:43.895] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 17:50:43.898] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 17:50:43.901] [DEBUG] [DashboardForm.InitializeServices] Services initialized
+[2026-02-18 17:50:43.904] [DEBUG] [DashboardForm] InitializeServices completed
+[2026-02-18 17:50:43.907] [DEBUG] [DashboardForm] Calling LoadClusters...
+[2026-02-18 17:50:43.911] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 17:50:43.916] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 17:50:43.922] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Closed
+[2026-02-18 17:50:43.926] [DEBUG] [DatabaseContext.GetConnection] Opening database connection
+[2026-02-18 17:50:43.960] [INFO] [DatabaseContext.GetConnection] Database connection opened - State: Open
+[2026-02-18 17:50:43.964] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 17:50:44.047] [ERROR] [ClusterRepository.FindAll] FindAll failed
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+
+[2026-02-18 17:50:44.054] [ERROR] [DashboardForm.LoadClusters] Failed to load clusters
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+   at RedshiftGuardian.Core.Services.ClusterService.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/Services/ClusterService.cs:line 32
+   at RedshiftGuardian.Desktop.Adapters.ClusterServiceAdapter.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Adapters/ClusterServiceAdapter.cs:line 91
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.LoadClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 108
+
+[2026-02-18 17:50:46.004] [DEBUG] [DashboardForm] LoadClusters completed
+[2026-02-18 17:50:46.008] [INFO] [DashboardForm] DashboardForm initialized successfully
+[2026-02-18 17:50:46.017] [INFO] [Program.Main] Starting Application.Run...
+[2026-02-18 17:50:50.883] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 17:50:50.885] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 17:50:50.888] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:50:50.892] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:50:50.895] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:50:50.898] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:50:50.901] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:50.904] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:50:50.907] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:50.909] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:50:50.912] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 17:50:50.915] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 17:50:50.918] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 17:50:50.921] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 17:50:50.926] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Getting Amazon Redshift ODBC DSNs
+[2026-02-18 17:50:50.930] [DEBUG] [OdbcDsnService.GetAllDsns] Getting all ODBC DSNs from Registry
+[2026-02-18 17:50:50.944] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading User DSNs from: HKEY_CURRENT_USER\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 17:50:50.947] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 7 User DSN entries
+[2026-02-18 17:50:50.951] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: dBASE Files - Server: , Database: , Port: 5439
+[2026-02-18 17:50:50.954] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Excel Files - Server: , Database: , Port: 5439
+[2026-02-18 17:50:50.957] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: linx107710a09 - Server: linx107710a09, Database: , Port: 10000
+[2026-02-18 17:50:50.960] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: MS Access Database - Server: , Database: , Port: 5439
+[2026-02-18 17:50:50.963] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: ODBC - Server: , Database: , Port: 5439
+[2026-02-18 17:50:50.965] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Red - Server: , Database: , Port: 5439
+[2026-02-18 17:50:50.968] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading System DSNs from: HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 17:50:50.971] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 11 System DSN entries
+[2026-02-18 17:50:50.973] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: CDP_TEST - Server: linx107701t14.hq.il.tleumi:2181,linx107701t16.hq.il.tleumi:2181,linx107701t17.hq.il.tleumi:2181, Database: , Port: 10000
+[2026-02-18 17:50:50.976] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-p.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 17:50:50.980] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-r.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 17:50:50.983] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Hortonworks Phoenix ODBC DSN - Server: your_phoenix_query_server, Database: , Port: 8765
+[2026-02-18 17:50:50.986] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: RedTest - Server: , Database: dev, Port: 5439
+[2026-02-18 17:50:50.989] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Hive DSN - Server: linx107710a08.bll:2181,linx107710a09.bll:2181,linx107777a73.bll:2181, Database: , Port: 10000
+[2026-02-18 17:50:50.992] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Impala DSN - Server: your_host, Database: , Port: 21050
+[2026-02-18 17:50:50.995] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Hortonworks Hive DSN - Server: your_hive_server, Database: , Port: 10000
+[2026-02-18 17:50:50.998] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Microsoft Hive DSN - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 17:50:51.001] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: test - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 17:50:51.003] [INFO] [OdbcDsnService.GetAllDsns] Found 16 ODBC DSNs
+[2026-02-18 17:50:51.006] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: Red (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:50:51.009] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-p.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:50:51.012] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-r.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:50:51.015] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: RedTest (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:50:51.017] [INFO] [OdbcDsnService.GetRedshiftDsns] Found 4 Redshift DSNs
+[2026-02-18 17:52:01.845] [INFO] [ClusterService.TestConnection] TestConnection called - Name: 12, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:52:01.849] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 17:52:01.920] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 17:52:15.129] [INFO] [ClusterService.TestConnection] TestConnection called - Name: 12, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:52:15.133] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 17:52:15.137] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 17:52:27.123] [INFO] [ClusterService.SaveCluster] SaveCluster called - Name: 12, Id: 0, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:52:27.128] [WARN] [ClusterService.SaveCluster] Validation failed: Host is required
+[2026-02-18 17:52:35.953] [INFO] [ClusterService.SaveCluster] SaveCluster called - Name: 12, Id: 0, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:52:35.957] [WARN] [ClusterService.SaveCluster] Validation failed: Host is required
+[2026-02-18 17:55:43.086] [INFO] [ClusterService.TestConnection] TestConnection called - Name: 12, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:55:43.089] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 17:55:43.093] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 17:56:04.627] [INFO] [ClusterService.TestConnection] TestConnection called - Name: 12, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:56:04.630] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 17:56:04.634] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 17:56:11.923] [INFO] [ClusterService.SaveCluster] SaveCluster called - Name: 12, Id: 0, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:56:11.926] [WARN] [ClusterService.SaveCluster] Validation failed: Host is required
+[2026-02-18 17:56:21.994] [INFO] [Program.Main] Application.Run completed normally
+
+
+===== RedshiftGuardian Log Started: 2026-02-18 17:58:33 =====
+Log file: C:\app\RedshiftGuardian_v6\publish\Logs\RedshiftGuardian_20260218_175833.log
+Application directory: C:\app\RedshiftGuardian_v6\publish\
+OS: Microsoft Windows NT 10.0.19044.0
+.NET: 8.0.24
+
+[2026-02-18 17:58:33.997] [INFO] [Program.Main] === Application Starting ===
+[2026-02-18 17:58:34.003] [INFO] [Program.Main] Arguments: None
+[2026-02-18 17:58:34.004] [INFO] [Program.Main] Initializing database...
+[2026-02-18 17:58:34.027] [INFO] [DatabaseContext.InitializeDatabase] InitializeDatabase called
+[2026-02-18 17:58:34.042] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:58:34.166] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:58:34.169] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:58:34.171] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:58:34.174] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory not set in AppDomain, creating default
+[2026-02-18 17:58:34.200] [DEBUG] [DatabaseContext.GetDataDirectory] ApplicationData folder: C:\Users\utsdm77\AppData\Roaming
+[2026-02-18 17:58:34.203] [DEBUG] [DatabaseContext.GetDataDirectory] Data directory will be: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:34.206] [DEBUG] [DatabaseContext.GetDataDirectory] Data directory already exists
+[2026-02-18 17:58:34.208] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory set in AppDomain
+[2026-02-18 17:58:34.211] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:34.218] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:34.220] [DEBUG] [DatabaseContext.InitializeDatabase] Connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:34.223] [DEBUG] [DatabaseContext.InitializeDatabase] Database file path: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:34.228] [INFO] [DatabaseContext.InitializeDatabase] Database exists: True, Needs schema: False
+[2026-02-18 17:58:34.232] [INFO] [DatabaseContext.InitializeDatabase] Database already exists, skipping initialization
+[2026-02-18 17:58:34.235] [INFO] [DatabaseContext.InitializeDatabase] InitializeDatabase completed successfully
+[2026-02-18 17:58:34.238] [INFO] [Program.Main] Database initialized successfully
+[2026-02-18 17:58:34.240] [INFO] [Program.Main] Running in GUI mode
+[2026-02-18 17:58:34.248] [INFO] [Program.Main] Creating DashboardForm...
+[2026-02-18 17:58:34.341] [INFO] [DashboardForm] DashboardForm constructor called
+[2026-02-18 17:58:34.344] [DEBUG] [DashboardForm] Calling InitializeComponent...
+[2026-02-18 17:58:34.515] [DEBUG] [DashboardForm] InitializeComponent completed
+[2026-02-18 17:58:34.518] [DEBUG] [DashboardForm] Calling InitializeServices...
+[2026-02-18 17:58:34.523] [DEBUG] [DashboardForm.InitializeServices] Creating ClusterServiceAdapter...
+[2026-02-18 17:58:34.527] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 17:58:34.530] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 17:58:34.533] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:58:34.536] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:58:34.543] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:58:34.546] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:58:34.549] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:34.551] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:34.555] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:34.558] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:34.619] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 17:58:34.622] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 17:58:34.625] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 17:58:34.628] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 17:58:34.632] [DEBUG] [DashboardForm.InitializeServices] Creating ScannerService...
+[2026-02-18 17:58:34.635] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 17:58:34.639] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:58:34.641] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:58:34.644] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:58:34.649] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:58:34.652] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:34.656] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:34.659] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:34.664] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:34.668] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 17:58:34.672] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 17:58:34.678] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 17:58:34.682] [DEBUG] [DashboardForm.InitializeServices] Services initialized
+[2026-02-18 17:58:34.686] [DEBUG] [DashboardForm] InitializeServices completed
+[2026-02-18 17:58:34.689] [DEBUG] [DashboardForm] Calling LoadClusters...
+[2026-02-18 17:58:34.694] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 17:58:34.698] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 17:58:34.704] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Closed
+[2026-02-18 17:58:34.708] [DEBUG] [DatabaseContext.GetConnection] Opening database connection
+[2026-02-18 17:58:34.736] [INFO] [DatabaseContext.GetConnection] Database connection opened - State: Open
+[2026-02-18 17:58:34.743] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 17:58:34.808] [ERROR] [ClusterRepository.FindAll] FindAll failed
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+
+[2026-02-18 17:58:34.815] [ERROR] [DashboardForm.LoadClusters] Failed to load clusters
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+   at RedshiftGuardian.Core.Services.ClusterService.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/Services/ClusterService.cs:line 32
+   at RedshiftGuardian.Desktop.Adapters.ClusterServiceAdapter.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Adapters/ClusterServiceAdapter.cs:line 91
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.LoadClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 108
+
+[2026-02-18 17:58:37.394] [DEBUG] [DashboardForm] LoadClusters completed
+[2026-02-18 17:58:37.400] [INFO] [DashboardForm] DashboardForm initialized successfully
+[2026-02-18 17:58:37.404] [INFO] [Program.Main] Starting Application.Run...
+[2026-02-18 17:58:40.761] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 17:58:40.765] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 17:58:40.768] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 17:58:40.770] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 17:58:40.776] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 17:58:40.780] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 17:58:40.782] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:40.785] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 17:58:40.788] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:40.791] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 17:58:40.793] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 17:58:40.797] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 17:58:40.799] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 17:58:40.802] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 17:58:40.808] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Getting Amazon Redshift ODBC DSNs
+[2026-02-18 17:58:40.812] [DEBUG] [OdbcDsnService.GetAllDsns] Getting all ODBC DSNs from Registry
+[2026-02-18 17:58:40.825] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading User DSNs from: HKEY_CURRENT_USER\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 17:58:40.831] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 7 User DSN entries
+[2026-02-18 17:58:40.837] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: dBASE Files - Server: , Database: , Port: 5439
+[2026-02-18 17:58:40.841] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Excel Files - Server: , Database: , Port: 5439
+[2026-02-18 17:58:40.845] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: linx107710a09 - Server: linx107710a09, Database: , Port: 10000
+[2026-02-18 17:58:40.848] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: MS Access Database - Server: , Database: , Port: 5439
+[2026-02-18 17:58:40.852] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: ODBC - Server: , Database: , Port: 5439
+[2026-02-18 17:58:40.855] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Red - Server: , Database: , Port: 5439
+[2026-02-18 17:58:40.859] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading System DSNs from: HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 17:58:40.862] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 11 System DSN entries
+[2026-02-18 17:58:40.866] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: CDP_TEST - Server: linx107701t14.hq.il.tleumi:2181,linx107701t16.hq.il.tleumi:2181,linx107701t17.hq.il.tleumi:2181, Database: , Port: 10000
+[2026-02-18 17:58:40.869] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-p.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 17:58:40.873] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-r.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 17:58:40.877] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Hortonworks Phoenix ODBC DSN - Server: your_phoenix_query_server, Database: , Port: 8765
+[2026-02-18 17:58:40.880] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: RedTest - Server: , Database: dev, Port: 5439
+[2026-02-18 17:58:40.884] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Hive DSN - Server: linx107710a08.bll:2181,linx107710a09.bll:2181,linx107777a73.bll:2181, Database: , Port: 10000
+[2026-02-18 17:58:40.887] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Impala DSN - Server: your_host, Database: , Port: 21050
+[2026-02-18 17:58:40.891] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Hortonworks Hive DSN - Server: your_hive_server, Database: , Port: 10000
+[2026-02-18 17:58:40.896] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Microsoft Hive DSN - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 17:58:40.899] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: test - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 17:58:40.902] [INFO] [OdbcDsnService.GetAllDsns] Found 16 ODBC DSNs
+[2026-02-18 17:58:40.906] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: Red (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:58:40.909] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-p.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:58:40.913] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-r.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:58:40.917] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: RedTest (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 17:58:40.920] [INFO] [OdbcDsnService.GetRedshiftDsns] Found 4 Redshift DSNs
+[2026-02-18 17:59:01.298] [INFO] [ClusterService.TestConnection] TestConnection called - Name: RedTest, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 17:59:01.302] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 17:59:01.350] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 17:59:38.363] [INFO] [ClusterService.TestConnection] TestConnection called - Name: RedTest, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 17:59:38.367] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 17:59:38.371] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 17:59:47.559] [INFO] [ClusterService.SaveCluster] SaveCluster called - Name: RedTest, Id: 0, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 17:59:47.564] [DEBUG] [ClusterService.SaveCluster] Checking for duplicate cluster name
+[2026-02-18 17:59:47.568] [DEBUG] [ClusterRepository.ExistsByName] ExistsByName called - Name: RedTest
+[2026-02-18 17:59:47.573] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Closed
+[2026-02-18 17:59:47.577] [DEBUG] [DatabaseContext.GetConnection] Opening database connection
+[2026-02-18 17:59:47.582] [INFO] [DatabaseContext.GetConnection] Database connection opened - State: Open
+[2026-02-18 17:59:47.587] [DEBUG] [ClusterRepository.ExistsByName] Executing ExistsByName query for Name: RedTest
+[2026-02-18 17:59:47.598] [INFO] [ClusterRepository.ExistsByName] ExistsByName - Name: RedTest, Exists: False, Count: 0
+[2026-02-18 17:59:47.602] [DEBUG] [ClusterService.SaveCluster] Saving cluster to database - IsNew: True
+[2026-02-18 17:59:47.607] [INFO] [ClusterRepository.Save] Save called - Id: 0, Name: RedTest, IsNew: True
+[2026-02-18 17:59:47.612] [DEBUG] [ClusterRepository.Save] Save - Calling Insert (new cluster)
+[2026-02-18 17:59:47.616] [INFO] [ClusterRepository.Insert] Insert called - Name: RedTest, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 17:59:47.620] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 17:59:47.624] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 17:59:47.629] [DEBUG] [ClusterRepository.AddParameters] AddParameters called for cluster: RedTest
+[2026-02-18 17:59:47.632] [DEBUG] [ClusterRepository.AddParameters] Parameters - Name: RedTest, DsnName: NULL, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, ClusterType: Provisioned, Username: pa, Password: ***, CreatedAt: 2026-02-18 17:58:40, UpdatedAt: 2026-02-18 17:59:47
+[2026-02-18 17:59:47.635] [DEBUG] [ClusterRepository.AddParameters] Parameters added successfully - Total parameters: 10
+[2026-02-18 17:59:47.638] [DEBUG] [ClusterRepository.Insert] Executing INSERT command for cluster: RedTest
+[2026-02-18 17:59:47.642] [ERROR] [ClusterRepository.Insert] Insert failed for cluster: RedTest
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'table Clusters has no column named DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.Insert(Cluster cluster) in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 176
+
+[2026-02-18 17:59:47.646] [ERROR] [ClusterRepository.Save] Save failed for cluster: RedTest
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'table Clusters has no column named DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.Insert(Cluster cluster) in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 176
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.Save(Cluster cluster) in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 252
+
+[2026-02-18 17:59:50.368] [INFO] [ClusterService.SaveCluster] SaveCluster called - Name: RedTest, Id: 0, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 17:59:50.372] [DEBUG] [ClusterService.SaveCluster] Checking for duplicate cluster name
+[2026-02-18 17:59:50.377] [DEBUG] [ClusterRepository.ExistsByName] ExistsByName called - Name: RedTest
+[2026-02-18 17:59:50.381] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 17:59:50.385] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 17:59:50.389] [DEBUG] [ClusterRepository.ExistsByName] Executing ExistsByName query for Name: RedTest
+[2026-02-18 17:59:50.394] [INFO] [ClusterRepository.ExistsByName] ExistsByName - Name: RedTest, Exists: False, Count: 0
+[2026-02-18 17:59:50.397] [DEBUG] [ClusterService.SaveCluster] Saving cluster to database - IsNew: True
+[2026-02-18 17:59:50.401] [INFO] [ClusterRepository.Save] Save called - Id: 0, Name: RedTest, IsNew: True
+[2026-02-18 17:59:50.405] [DEBUG] [ClusterRepository.Save] Save - Calling Insert (new cluster)
+[2026-02-18 17:59:50.409] [INFO] [ClusterRepository.Insert] Insert called - Name: RedTest, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 17:59:50.413] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 17:59:50.417] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 17:59:50.421] [DEBUG] [ClusterRepository.AddParameters] AddParameters called for cluster: RedTest
+[2026-02-18 17:59:50.426] [DEBUG] [ClusterRepository.AddParameters] Parameters - Name: RedTest, DsnName: NULL, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, ClusterType: Provisioned, Username: pa, Password: ***, CreatedAt: 2026-02-18 17:58:40, UpdatedAt: 2026-02-18 17:59:50
+[2026-02-18 17:59:50.429] [DEBUG] [ClusterRepository.AddParameters] Parameters added successfully - Total parameters: 10
+[2026-02-18 17:59:50.434] [DEBUG] [ClusterRepository.Insert] Executing INSERT command for cluster: RedTest
+[2026-02-18 17:59:50.441] [ERROR] [ClusterRepository.Insert] Insert failed for cluster: RedTest
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'table Clusters has no column named DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.Insert(Cluster cluster) in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 176
+
+[2026-02-18 17:59:50.446] [ERROR] [ClusterRepository.Save] Save failed for cluster: RedTest
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'table Clusters has no column named DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.Insert(Cluster cluster) in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 176
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.Save(Cluster cluster) in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 252
+
+[2026-02-18 18:00:05.479] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 18:00:05.484] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:00:05.488] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:00:05.494] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:00:05.498] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:00:05.501] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:00:05.506] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:00:05.512] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:00:05.516] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:00:05.520] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 18:00:05.523] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Closed
+[2026-02-18 18:00:05.527] [DEBUG] [DatabaseContext.GetConnection] Opening database connection
+[2026-02-18 18:00:05.534] [INFO] [DatabaseContext.GetConnection] Database connection opened - State: Open
+[2026-02-18 18:00:07.385] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:00:07.389] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:00:07.394] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:00:07.399] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:00:07.404] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:00:07.410] [ERROR] [ClusterRepository.FindAll] FindAll failed
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+
+[2026-02-18 18:00:07.415] [ERROR] [DashboardForm.LoadClusters] Failed to load clusters
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+   at RedshiftGuardian.Core.Services.ClusterService.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/Services/ClusterService.cs:line 32
+   at RedshiftGuardian.Desktop.Adapters.ClusterServiceAdapter.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Adapters/ClusterServiceAdapter.cs:line 91
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.LoadClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 108
+
+[2026-02-18 18:00:15.469] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:00:15.473] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:00:15.477] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:00:15.480] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:00:15.484] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:00:15.489] [ERROR] [ClusterRepository.FindAll] FindAll failed
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+
+[2026-02-18 18:00:15.496] [ERROR] [DashboardForm.LoadClusters] Failed to load clusters
+Exception Type: Microsoft.Data.Sqlite.SqliteException
+Message: SQLite Error 1: 'no such column: DsnName'.
+Stack Trace:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at RedshiftGuardian.Core.DataAccess.ClusterRepository.FindAll() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/DataAccess/ClusterRepository.cs:line 45
+   at RedshiftGuardian.Core.Services.ClusterService.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Core/Services/ClusterService.cs:line 32
+   at RedshiftGuardian.Desktop.Adapters.ClusterServiceAdapter.GetAllClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Adapters/ClusterServiceAdapter.cs:line 91
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.LoadClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 108
+
+[2026-02-18 18:00:18.421] [INFO] [Program.Main] Application.Run completed normally
