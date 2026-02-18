@@ -1,1 +1,426 @@
 
+===== RedshiftGuardian Log Started: 2026-02-18 18:28:35 =====
+Log file: C:\app\RedshiftGuardian_v6\publish\Logs\RedshiftGuardian_20260218_182835.log
+Application directory: C:\app\RedshiftGuardian_v6\publish\
+OS: Microsoft Windows NT 10.0.19044.0
+.NET: 8.0.24
+
+[2026-02-18 18:28:36.015] [INFO] [Program.Main] === Application Starting ===
+[2026-02-18 18:28:36.019] [INFO] [Program.Main] Arguments: None
+[2026-02-18 18:28:36.022] [INFO] [Program.Main] Initializing database...
+[2026-02-18 18:28:36.044] [INFO] [DatabaseContext.InitializeDatabase] InitializeDatabase called
+[2026-02-18 18:28:36.060] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:28:36.186] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:28:36.189] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:28:36.194] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:28:36.197] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory not set in AppDomain, creating default
+[2026-02-18 18:28:36.220] [DEBUG] [DatabaseContext.GetDataDirectory] ApplicationData folder: C:\Users\utsdm77\AppData\Roaming
+[2026-02-18 18:28:36.227] [DEBUG] [DatabaseContext.GetDataDirectory] Data directory will be: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.229] [DEBUG] [DatabaseContext.GetDataDirectory] Data directory already exists
+[2026-02-18 18:28:36.232] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory set in AppDomain
+[2026-02-18 18:28:36.234] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.237] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.240] [DEBUG] [DatabaseContext.InitializeDatabase] Connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.244] [DEBUG] [DatabaseContext.InitializeDatabase] Database file path: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.246] [INFO] [DatabaseContext.InitializeDatabase] Database exists: True, Needs schema: False
+[2026-02-18 18:28:36.249] [INFO] [DatabaseContext.InitializeDatabase] Database already exists, running migrations
+[2026-02-18 18:28:36.253] [INFO] [DatabaseContext.RunMigrations] RunMigrations called
+[2026-02-18 18:28:36.257] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 18:28:36.260] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:28:36.263] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:28:36.266] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:28:36.269] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:28:36.272] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.275] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.278] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.280] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.350] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 18:28:36.355] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Closed
+[2026-02-18 18:28:36.358] [DEBUG] [DatabaseContext.GetConnection] Opening database connection
+[2026-02-18 18:28:36.421] [INFO] [DatabaseContext.GetConnection] Database connection opened - State: Open
+[2026-02-18 18:28:36.426] [DEBUG] [DatabaseContext.RunMigrations] Database connection obtained for migrations
+[2026-02-18 18:28:36.429] [DEBUG] [DatabaseContext.RunMigrations] Checking if DsnName column exists in Clusters table
+[2026-02-18 18:28:36.496] [INFO] [DatabaseContext.RunMigrations] DsnName column added to Clusters table
+[2026-02-18 18:28:36.504] [INFO] [DatabaseContext.RunMigrations] RunMigrations completed successfully
+[2026-02-18 18:28:36.510] [INFO] [DatabaseContext.InitializeDatabase] InitializeDatabase completed successfully
+[2026-02-18 18:28:36.514] [INFO] [Program.Main] Database initialized successfully
+[2026-02-18 18:28:36.519] [INFO] [Program.Main] Running in GUI mode
+[2026-02-18 18:28:36.529] [INFO] [Program.Main] Creating DashboardForm...
+[2026-02-18 18:28:36.619] [INFO] [DashboardForm] DashboardForm constructor called
+[2026-02-18 18:28:36.622] [DEBUG] [DashboardForm] Calling InitializeComponent...
+[2026-02-18 18:28:36.858] [DEBUG] [DashboardForm] InitializeComponent completed
+[2026-02-18 18:28:36.862] [DEBUG] [DashboardForm] Calling InitializeServices...
+[2026-02-18 18:28:36.865] [DEBUG] [DashboardForm.InitializeServices] Creating ClusterServiceAdapter...
+[2026-02-18 18:28:36.867] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 18:28:36.870] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 18:28:36.872] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:28:36.875] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:28:36.878] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:28:36.880] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:28:36.883] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.887] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.890] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.893] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.896] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 18:28:36.899] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 18:28:36.903] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 18:28:36.906] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 18:28:36.910] [DEBUG] [DashboardForm.InitializeServices] Creating ScannerService...
+[2026-02-18 18:28:36.913] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 18:28:36.916] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:28:36.920] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:28:36.923] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:28:36.926] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:28:36.929] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.932] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:36.935] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.938] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:36.941] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 18:28:36.944] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 18:28:36.947] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 18:28:36.951] [DEBUG] [DashboardForm.InitializeServices] Services initialized
+[2026-02-18 18:28:36.954] [DEBUG] [DashboardForm] InitializeServices completed
+[2026-02-18 18:28:36.957] [DEBUG] [DashboardForm] Calling LoadClusters...
+[2026-02-18 18:28:36.960] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:28:36.964] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:28:36.967] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Closed
+[2026-02-18 18:28:36.970] [DEBUG] [DatabaseContext.GetConnection] Opening database connection
+[2026-02-18 18:28:36.973] [INFO] [DatabaseContext.GetConnection] Database connection opened - State: Open
+[2026-02-18 18:28:36.976] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:28:37.001] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=6, Name=Demo-Analytics, Host=analytics-cluster.def456.eu-west-1.redshift.amazonaws.com
+[2026-02-18 18:28:37.005] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=5, Name=Demo-Dev-Serverless, Host=dev-workgroup.123456.us-east-1.redshift-serverless.amazonaws.com
+[2026-02-18 18:28:37.008] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=3, Name=Demo-Production, Host=production-cluster.abc123.us-east-1.redshift.amazonaws.com
+[2026-02-18 18:28:37.012] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=4, Name=Demo-Staging, Host=staging-cluster.xyz789.us-west-2.redshift.amazonaws.com
+[2026-02-18 18:28:37.014] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:28:37.018] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 5 clusters
+[2026-02-18 18:28:37.021] [INFO] [DashboardForm.LoadClusters] Loaded 5 clusters
+[2026-02-18 18:28:37.027] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 5 clusters
+[2026-02-18 18:28:37.049] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:28:37.054] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:28:37.151] [ERROR] [DashboardForm.RefreshGrid] Error configuring grid columns
+Exception Type: System.NullReferenceException
+Message: Object reference not set to an instance of an object.
+Stack Trace:    at System.Windows.Forms.DataGridViewBand.set_Thickness(Int32 value)
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.RefreshGrid() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 156
+
+[2026-02-18 18:28:37.155] [ERROR] [DashboardForm.RefreshGrid] Error in RefreshGrid
+Exception Type: System.NullReferenceException
+Message: Object reference not set to an instance of an object.
+Stack Trace:    at System.Windows.Forms.DataGridViewBand.set_Thickness(Int32 value)
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.RefreshGrid() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 156
+
+[2026-02-18 18:28:37.159] [ERROR] [DashboardForm.LoadClusters] Failed to load clusters
+Exception Type: System.NullReferenceException
+Message: Object reference not set to an instance of an object.
+Stack Trace:    at System.Windows.Forms.DataGridViewBand.set_Thickness(Int32 value)
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.RefreshGrid() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 156
+   at RedshiftGuardian.Desktop.Forms.DashboardForm.LoadClusters() in /home/orel/Downloads/RedshiftGuardianNET/src/RedshiftGuardian.Desktop/Forms/DashboardForm.cs:line 110
+
+[2026-02-18 18:28:38.610] [DEBUG] [DashboardForm] LoadClusters completed
+[2026-02-18 18:28:38.618] [INFO] [DashboardForm] DashboardForm initialized successfully
+[2026-02-18 18:28:38.623] [INFO] [Program.Main] Starting Application.Run...
+[2026-02-18 18:28:46.104] [INFO] [ClusterService.TestConnection] TestConnection called - Name: da-rs-01-p.data.leumi-aws.prd, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 18:28:46.106] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 18:28:46.155] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 18:28:53.418] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 18:28:53.422] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 18:28:53.426] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:28:53.430] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:28:53.434] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:28:53.438] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:28:53.444] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:53.448] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:28:53.452] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:53.455] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:28:53.459] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 18:28:53.470] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 18:28:53.474] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 18:28:53.479] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 18:28:53.484] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Getting Amazon Redshift ODBC DSNs
+[2026-02-18 18:28:53.489] [DEBUG] [OdbcDsnService.GetAllDsns] Getting all ODBC DSNs from Registry
+[2026-02-18 18:28:53.503] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading User DSNs from: HKEY_CURRENT_USER\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 18:28:53.507] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 7 User DSN entries
+[2026-02-18 18:28:53.514] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: dBASE Files - Server: , Database: , Port: 5439
+[2026-02-18 18:28:53.519] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Excel Files - Server: , Database: , Port: 5439
+[2026-02-18 18:28:53.524] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: linx107710a09 - Server: linx107710a09, Database: , Port: 10000
+[2026-02-18 18:28:53.528] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: MS Access Database - Server: , Database: , Port: 5439
+[2026-02-18 18:28:53.532] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: ODBC - Server: , Database: , Port: 5439
+[2026-02-18 18:28:53.537] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Red - Server: , Database: , Port: 5439
+[2026-02-18 18:28:53.542] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading System DSNs from: HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 18:28:53.547] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 11 System DSN entries
+[2026-02-18 18:28:53.551] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: CDP_TEST - Server: linx107701t14.hq.il.tleumi:2181,linx107701t16.hq.il.tleumi:2181,linx107701t17.hq.il.tleumi:2181, Database: , Port: 10000
+[2026-02-18 18:28:53.556] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-p.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 18:28:53.561] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-r.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 18:28:53.565] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Hortonworks Phoenix ODBC DSN - Server: your_phoenix_query_server, Database: , Port: 8765
+[2026-02-18 18:28:53.571] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: RedTest - Server: , Database: dev, Port: 5439
+[2026-02-18 18:28:53.576] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Hive DSN - Server: linx107710a08.bll:2181,linx107710a09.bll:2181,linx107777a73.bll:2181, Database: , Port: 10000
+[2026-02-18 18:28:53.580] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Impala DSN - Server: your_host, Database: , Port: 21050
+[2026-02-18 18:28:53.585] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Hortonworks Hive DSN - Server: your_hive_server, Database: , Port: 10000
+[2026-02-18 18:28:53.590] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Microsoft Hive DSN - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 18:28:53.595] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: test - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 18:28:53.599] [INFO] [OdbcDsnService.GetAllDsns] Found 16 ODBC DSNs
+[2026-02-18 18:28:53.605] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: Red (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:28:53.608] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-p.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:28:53.612] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-r.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:28:53.615] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: RedTest (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:28:53.620] [INFO] [OdbcDsnService.GetRedshiftDsns] Found 4 Redshift DSNs
+[2026-02-18 18:29:00.311] [INFO] [ClusterService.TestConnection] TestConnection called - Name: da-rs-01-p.data.leumi-aws.prd, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 18:29:00.315] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 18:29:00.320] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 18:29:07.531] [INFO] [ClusterService.TestConnection] TestConnection called - Name: da-rs-01-p.data.leumi-aws.prd, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 18:29:07.535] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 18:29:07.541] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 18:29:38.435] [DEBUG] [ClusterRepository.FindById] FindById called - Id: 6
+[2026-02-18 18:29:38.442] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:38.446] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:38.450] [DEBUG] [ClusterRepository.FindById] Executing FindById query for Id: 6
+[2026-02-18 18:29:38.458] [INFO] [ClusterRepository.FindById] FindById found cluster: Id=6, Name=Demo-Analytics
+[2026-02-18 18:29:38.462] [INFO] [ClusterRepository.Delete] Delete called - Id: 6
+[2026-02-18 18:29:38.467] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:38.471] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:38.475] [DEBUG] [ClusterRepository.Delete] Executing DELETE command for Id: 6
+[2026-02-18 18:29:38.499] [DEBUG] [ClusterRepository.Delete] DELETE command completed - Rows affected: 1
+[2026-02-18 18:29:38.503] [INFO] [ClusterRepository.Delete] Delete successful - Id: 6
+[2026-02-18 18:29:39.488] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:29:39.494] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:29:39.499] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:39.503] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:39.507] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:29:39.511] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=5, Name=Demo-Dev-Serverless, Host=dev-workgroup.123456.us-east-1.redshift-serverless.amazonaws.com
+[2026-02-18 18:29:39.514] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=3, Name=Demo-Production, Host=production-cluster.abc123.us-east-1.redshift.amazonaws.com
+[2026-02-18 18:29:39.518] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=4, Name=Demo-Staging, Host=staging-cluster.xyz789.us-west-2.redshift.amazonaws.com
+[2026-02-18 18:29:39.523] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:29:39.528] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 4 clusters
+[2026-02-18 18:29:39.532] [INFO] [DashboardForm.LoadClusters] Loaded 4 clusters
+[2026-02-18 18:29:39.536] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 4 clusters
+[2026-02-18 18:29:39.570] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:29:39.574] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:29:39.597] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid completed successfully
+[2026-02-18 18:29:42.396] [DEBUG] [ClusterRepository.FindById] FindById called - Id: 5
+[2026-02-18 18:29:42.399] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:42.404] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:42.407] [DEBUG] [ClusterRepository.FindById] Executing FindById query for Id: 5
+[2026-02-18 18:29:42.412] [INFO] [ClusterRepository.FindById] FindById found cluster: Id=5, Name=Demo-Dev-Serverless
+[2026-02-18 18:29:42.419] [INFO] [ClusterRepository.Delete] Delete called - Id: 5
+[2026-02-18 18:29:42.424] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:42.428] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:42.436] [DEBUG] [ClusterRepository.Delete] Executing DELETE command for Id: 5
+[2026-02-18 18:29:42.478] [DEBUG] [ClusterRepository.Delete] DELETE command completed - Rows affected: 1
+[2026-02-18 18:29:42.483] [INFO] [ClusterRepository.Delete] Delete successful - Id: 5
+[2026-02-18 18:29:45.628] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:29:45.633] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:29:45.637] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:45.642] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:45.647] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:29:45.652] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=3, Name=Demo-Production, Host=production-cluster.abc123.us-east-1.redshift.amazonaws.com
+[2026-02-18 18:29:45.657] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=4, Name=Demo-Staging, Host=staging-cluster.xyz789.us-west-2.redshift.amazonaws.com
+[2026-02-18 18:29:45.662] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:29:45.667] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 3 clusters
+[2026-02-18 18:29:45.672] [INFO] [DashboardForm.LoadClusters] Loaded 3 clusters
+[2026-02-18 18:29:45.676] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 3 clusters
+[2026-02-18 18:29:45.714] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:29:45.717] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:29:45.746] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid completed successfully
+[2026-02-18 18:29:49.137] [DEBUG] [ClusterRepository.FindById] FindById called - Id: 3
+[2026-02-18 18:29:49.142] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:49.146] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:49.149] [DEBUG] [ClusterRepository.FindById] Executing FindById query for Id: 3
+[2026-02-18 18:29:49.154] [INFO] [ClusterRepository.FindById] FindById found cluster: Id=3, Name=Demo-Production
+[2026-02-18 18:29:49.159] [INFO] [ClusterRepository.Delete] Delete called - Id: 3
+[2026-02-18 18:29:49.164] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:49.167] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:49.172] [DEBUG] [ClusterRepository.Delete] Executing DELETE command for Id: 3
+[2026-02-18 18:29:49.225] [DEBUG] [ClusterRepository.Delete] DELETE command completed - Rows affected: 1
+[2026-02-18 18:29:49.229] [INFO] [ClusterRepository.Delete] Delete successful - Id: 3
+[2026-02-18 18:29:51.853] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:29:51.857] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:29:51.863] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:51.868] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:51.873] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:29:51.879] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=4, Name=Demo-Staging, Host=staging-cluster.xyz789.us-west-2.redshift.amazonaws.com
+[2026-02-18 18:29:51.883] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:29:51.887] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 2 clusters
+[2026-02-18 18:29:51.892] [INFO] [DashboardForm.LoadClusters] Loaded 2 clusters
+[2026-02-18 18:29:51.897] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 2 clusters
+[2026-02-18 18:29:51.929] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:29:51.932] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:29:51.951] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid completed successfully
+[2026-02-18 18:29:55.770] [DEBUG] [ClusterRepository.FindById] FindById called - Id: 4
+[2026-02-18 18:29:55.774] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:55.779] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:55.783] [DEBUG] [ClusterRepository.FindById] Executing FindById query for Id: 4
+[2026-02-18 18:29:55.788] [INFO] [ClusterRepository.FindById] FindById found cluster: Id=4, Name=Demo-Staging
+[2026-02-18 18:29:55.792] [INFO] [ClusterRepository.Delete] Delete called - Id: 4
+[2026-02-18 18:29:55.795] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:55.799] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:55.803] [DEBUG] [ClusterRepository.Delete] Executing DELETE command for Id: 4
+[2026-02-18 18:29:55.836] [DEBUG] [ClusterRepository.Delete] DELETE command completed - Rows affected: 1
+[2026-02-18 18:29:55.841] [INFO] [ClusterRepository.Delete] Delete successful - Id: 4
+[2026-02-18 18:29:57.235] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:29:57.240] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:29:57.243] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:29:57.248] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:29:57.254] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:29:57.260] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:29:57.266] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 1 clusters
+[2026-02-18 18:29:57.272] [INFO] [DashboardForm.LoadClusters] Loaded 1 clusters
+[2026-02-18 18:29:57.285] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 1 clusters
+[2026-02-18 18:29:57.316] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:29:57.320] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:29:57.344] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid completed successfully
+[2026-02-18 18:29:58.681] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 18:29:58.686] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 18:29:58.691] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:29:58.696] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:29:58.701] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:29:58.706] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:29:58.712] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:29:58.716] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:29:58.720] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:29:58.725] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:29:58.731] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 18:29:58.736] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 18:29:58.741] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 18:29:58.746] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 18:29:58.752] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Getting Amazon Redshift ODBC DSNs
+[2026-02-18 18:29:58.757] [DEBUG] [OdbcDsnService.GetAllDsns] Getting all ODBC DSNs from Registry
+[2026-02-18 18:29:58.762] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading User DSNs from: HKEY_CURRENT_USER\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 18:29:58.767] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 7 User DSN entries
+[2026-02-18 18:29:58.773] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: dBASE Files - Server: , Database: , Port: 5439
+[2026-02-18 18:29:58.778] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Excel Files - Server: , Database: , Port: 5439
+[2026-02-18 18:29:58.784] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: linx107710a09 - Server: linx107710a09, Database: , Port: 10000
+[2026-02-18 18:29:58.790] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: MS Access Database - Server: , Database: , Port: 5439
+[2026-02-18 18:29:58.795] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: ODBC - Server: , Database: , Port: 5439
+[2026-02-18 18:29:58.801] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Red - Server: , Database: , Port: 5439
+[2026-02-18 18:29:58.807] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading System DSNs from: HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 18:29:58.810] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 11 System DSN entries
+[2026-02-18 18:29:58.813] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: CDP_TEST - Server: linx107701t14.hq.il.tleumi:2181,linx107701t16.hq.il.tleumi:2181,linx107701t17.hq.il.tleumi:2181, Database: , Port: 10000
+[2026-02-18 18:29:58.815] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-p.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 18:29:58.817] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-r.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 18:29:58.820] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Hortonworks Phoenix ODBC DSN - Server: your_phoenix_query_server, Database: , Port: 8765
+[2026-02-18 18:29:58.823] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: RedTest - Server: , Database: dev, Port: 5439
+[2026-02-18 18:29:58.826] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Hive DSN - Server: linx107710a08.bll:2181,linx107710a09.bll:2181,linx107777a73.bll:2181, Database: , Port: 10000
+[2026-02-18 18:29:58.828] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Impala DSN - Server: your_host, Database: , Port: 21050
+[2026-02-18 18:29:58.830] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Hortonworks Hive DSN - Server: your_hive_server, Database: , Port: 10000
+[2026-02-18 18:29:58.832] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Microsoft Hive DSN - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 18:29:58.835] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: test - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 18:29:58.837] [INFO] [OdbcDsnService.GetAllDsns] Found 16 ODBC DSNs
+[2026-02-18 18:29:58.839] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: Red (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:29:58.840] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-p.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:29:58.842] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-r.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:29:58.844] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: RedTest (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:29:58.846] [INFO] [OdbcDsnService.GetRedshiftDsns] Found 4 Redshift DSNs
+[2026-02-18 18:30:01.398] [INFO] [ClusterService.TestConnection] TestConnection called - Name: da-rs-01-p.data.leumi-aws.prd, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 18:30:01.401] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 18:30:01.405] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 18:30:12.960] [INFO] [ClusterService.SaveCluster] SaveCluster called - Name: da-rs-01-p.data.leumi-aws.prd, Id: 2, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 18:30:12.963] [WARN] [ClusterService.SaveCluster] Validation failed: Host is required
+[2026-02-18 18:30:18.138] [INFO] [ClusterService.TestConnection] TestConnection called - Name: da-rs-01-p.data.leumi-aws.prd, Host: , Port: 5439, Database: , Username: pa
+[2026-02-18 18:30:18.141] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 18:30:18.146] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 18:30:24.780] [INFO] [ClusterService.SaveCluster] SaveCluster called - Name: da-rs-01-p.data.leumi-aws.prd, Id: 2, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 18:30:24.784] [DEBUG] [ClusterRepository.FindById] FindById called - Id: 2
+[2026-02-18 18:30:24.786] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Closed
+[2026-02-18 18:30:24.788] [DEBUG] [DatabaseContext.GetConnection] Opening database connection
+[2026-02-18 18:30:24.791] [INFO] [DatabaseContext.GetConnection] Database connection opened - State: Open
+[2026-02-18 18:30:24.793] [DEBUG] [ClusterRepository.FindById] Executing FindById query for Id: 2
+[2026-02-18 18:30:24.795] [INFO] [ClusterRepository.FindById] FindById found cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:24.796] [DEBUG] [ClusterService.SaveCluster] Saving cluster to database - IsNew: False
+[2026-02-18 18:30:24.799] [INFO] [ClusterRepository.Save] Save called - Id: 2, Name: da-rs-01-p.data.leumi-aws.prd, IsNew: False
+[2026-02-18 18:30:24.801] [DEBUG] [ClusterRepository.Save] Save - Calling Update (existing cluster Id: 2)
+[2026-02-18 18:30:24.804] [INFO] [ClusterRepository.Update] Update called - Id: 2, Name: da-rs-01-p.data.leumi-aws.prd, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 18:30:24.806] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:30:24.808] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:30:24.810] [DEBUG] [ClusterRepository.AddParameters] AddParameters called for cluster: da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:24.812] [DEBUG] [ClusterRepository.AddParameters] Parameters - Name: da-rs-01-p.data.leumi-aws.prd, DsnName: NULL, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, ClusterType: Provisioned, Username: pa, Password: ***, CreatedAt: 2026-02-18 15:14:26, UpdatedAt: 2026-02-18 18:30:24
+[2026-02-18 18:30:24.814] [DEBUG] [ClusterRepository.AddParameters] Parameters added successfully - Total parameters: 10
+[2026-02-18 18:30:24.816] [DEBUG] [ClusterRepository.Update] Executing UPDATE command for cluster Id: 2, Name: da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:24.845] [DEBUG] [ClusterRepository.Update] UPDATE command completed - Rows affected: 1
+[2026-02-18 18:30:24.847] [INFO] [ClusterRepository.Update] Update successful - Id: 2, Name: da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:24.849] [INFO] [ClusterRepository.Save] Save completed successfully - Id: 2, Name: da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:24.851] [INFO] [ClusterService.SaveCluster] Cluster saved successfully - Id: 2, Name: da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:25.917] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:30:25.918] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:30:25.920] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:30:25.922] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:30:25.924] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:30:25.925] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:25.928] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 1 clusters
+[2026-02-18 18:30:25.930] [INFO] [DashboardForm.LoadClusters] Loaded 1 clusters
+[2026-02-18 18:30:25.930] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 1 clusters
+[2026-02-18 18:30:25.960] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:30:25.963] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:30:25.983] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid completed successfully
+[2026-02-18 18:30:27.310] [DEBUG] [ClusterService] Creating ClusterService
+[2026-02-18 18:30:27.313] [DEBUG] [DatabaseContext] DatabaseContext constructor called
+[2026-02-18 18:30:27.316] [DEBUG] [DatabaseContext.GetConnectionString] GetConnectionString called
+[2026-02-18 18:30:27.318] [DEBUG] [DatabaseContext.GetConnectionString] LocalDB connection string not found in config
+[2026-02-18 18:30:27.320] [DEBUG] [DatabaseContext.GetConnectionString] Using fallback connection string
+[2026-02-18 18:30:27.324] [DEBUG] [DatabaseContext.GetDataDirectory] GetDataDirectory called
+[2026-02-18 18:30:27.327] [DEBUG] [DatabaseContext.GetDataDirectory] DataDirectory found in AppDomain: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:30:27.329] [INFO] [DatabaseContext.GetDataDirectory] Final data directory: C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian
+[2026-02-18 18:30:27.332] [INFO] [DatabaseContext.GetConnectionString] Fallback connection string created: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:30:27.334] [DEBUG] [DatabaseContext] Creating SqliteConnection with connection string: Data Source=C:\Users\utsdm77\AppData\Roaming\RedshiftGuardian\RedshiftGuardian.db
+[2026-02-18 18:30:27.335] [INFO] [DatabaseContext] DatabaseContext created successfully
+[2026-02-18 18:30:27.338] [DEBUG] [ClusterRepository] Creating ClusterRepository
+[2026-02-18 18:30:27.340] [DEBUG] [ClusterRepository] ClusterRepository created successfully
+[2026-02-18 18:30:27.342] [DEBUG] [ClusterService] ClusterService created successfully
+[2026-02-18 18:30:27.344] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Getting Amazon Redshift ODBC DSNs
+[2026-02-18 18:30:27.346] [DEBUG] [OdbcDsnService.GetAllDsns] Getting all ODBC DSNs from Registry
+[2026-02-18 18:30:27.348] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading User DSNs from: HKEY_CURRENT_USER\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 18:30:27.349] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 7 User DSN entries
+[2026-02-18 18:30:27.351] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: dBASE Files - Server: , Database: , Port: 5439
+[2026-02-18 18:30:27.354] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Excel Files - Server: , Database: , Port: 5439
+[2026-02-18 18:30:27.357] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: linx107710a09 - Server: linx107710a09, Database: , Port: 10000
+[2026-02-18 18:30:27.359] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: MS Access Database - Server: , Database: , Port: 5439
+[2026-02-18 18:30:27.361] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: ODBC - Server: , Database: , Port: 5439
+[2026-02-18 18:30:27.363] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Red - Server: , Database: , Port: 5439
+[2026-02-18 18:30:27.365] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Reading System DSNs from: HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI
+[2026-02-18 18:30:27.367] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Found 11 System DSN entries
+[2026-02-18 18:30:27.369] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: CDP_TEST - Server: linx107701t14.hq.il.tleumi:2181,linx107701t16.hq.il.tleumi:2181,linx107701t17.hq.il.tleumi:2181, Database: , Port: 10000
+[2026-02-18 18:30:27.371] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-p.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 18:30:27.373] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: da-rs-01-r.data.leumi-aws.prd - Server: , Database: dev, Port: 5439
+[2026-02-18 18:30:27.375] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Hortonworks Phoenix ODBC DSN - Server: your_phoenix_query_server, Database: , Port: 8765
+[2026-02-18 18:30:27.377] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: RedTest - Server: , Database: dev, Port: 5439
+[2026-02-18 18:30:27.379] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Hive DSN - Server: linx107710a08.bll:2181,linx107710a09.bll:2181,linx107777a73.bll:2181, Database: , Port: 10000
+[2026-02-18 18:30:27.381] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Cloudera Impala DSN - Server: your_host, Database: , Port: 21050
+[2026-02-18 18:30:27.383] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Hortonworks Hive DSN - Server: your_hive_server, Database: , Port: 10000
+[2026-02-18 18:30:27.385] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: Sample Microsoft Hive DSN - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 18:30:27.388] [DEBUG] [OdbcDsnService.GetDsnsFromRegistry] Loaded DSN: test - Server: linx107710a08, Database: , Port: 10000
+[2026-02-18 18:30:27.389] [INFO] [OdbcDsnService.GetAllDsns] Found 16 ODBC DSNs
+[2026-02-18 18:30:27.391] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: Red (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:30:27.393] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-p.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:30:27.395] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: da-rs-01-r.data.leumi-aws.prd (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:30:27.397] [DEBUG] [OdbcDsnService.GetRedshiftDsns] Found Redshift DSN: RedTest (Driver: C:\Program Files\Amazon Redshift ODBC Driver x64\Drivers\rsodbc.dll)
+[2026-02-18 18:30:27.398] [INFO] [OdbcDsnService.GetRedshiftDsns] Found 4 Redshift DSNs
+[2026-02-18 18:30:28.993] [INFO] [ClusterService.TestConnection] TestConnection called - Name: da-rs-01-p.data.leumi-aws.prd, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 18:30:28.996] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 18:30:28.998] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 18:30:36.068] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:30:36.071] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:30:36.073] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:30:36.075] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:30:36.077] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:30:36.080] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:36.082] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 1 clusters
+[2026-02-18 18:30:36.086] [INFO] [DashboardForm.LoadClusters] Loaded 1 clusters
+[2026-02-18 18:30:36.089] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 1 clusters
+[2026-02-18 18:30:36.117] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:30:36.120] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:30:36.134] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid completed successfully
+[2026-02-18 18:30:36.686] [DEBUG] [DashboardForm.LoadClusters] Getting all clusters from database...
+[2026-02-18 18:30:36.690] [DEBUG] [ClusterRepository.FindAll] FindAll called
+[2026-02-18 18:30:36.692] [DEBUG] [DatabaseContext.GetConnection] GetConnection called - Current state: Open
+[2026-02-18 18:30:36.694] [DEBUG] [DatabaseContext.GetConnection] Connection already open
+[2026-02-18 18:30:36.696] [DEBUG] [ClusterRepository.FindAll] Executing FindAll query
+[2026-02-18 18:30:36.698] [DEBUG] [ClusterRepository.FindAll] Loaded cluster: Id=2, Name=da-rs-01-p.data.leumi-aws.prd, Host=da-rs-01-p.data.leumi-aws.prd
+[2026-02-18 18:30:36.699] [INFO] [ClusterRepository.FindAll] FindAll completed - Found 1 clusters
+[2026-02-18 18:30:36.701] [INFO] [DashboardForm.LoadClusters] Loaded 1 clusters
+[2026-02-18 18:30:36.704] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid called with 1 clusters
+[2026-02-18 18:30:36.728] [DEBUG] [DashboardForm.RefreshGrid] DataSource set, Columns.Count = 14
+[2026-02-18 18:30:36.730] [DEBUG] [DashboardForm.RefreshGrid] Available columns: Id, Name, DsnName, Host, Port, Database, ClusterType, Username, Password, LastScanTime, LastScanStatus, CreatedAt, UpdatedAt, UsesDsn
+[2026-02-18 18:30:36.749] [DEBUG] [DashboardForm.RefreshGrid] RefreshGrid completed successfully
+[2026-02-18 18:30:37.660] [INFO] [ClusterService.TestConnection] TestConnection called - Name: da-rs-01-p.data.leumi-aws.prd, Host: da-rs-01-p.data.leumi-aws.prd, Port: 5439, Database: dev, Username: pa
+[2026-02-18 18:30:37.663] [DEBUG] [ClusterService.TestConnection] Creating RedshiftRepository for connection test
+[2026-02-18 18:30:37.667] [WARN] [ClusterService.TestConnection] Connection test failed
+[2026-02-18 18:30:50.785] [INFO] [Program.Main] Application.Run completed normally
